@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Spice Garden Restaurant</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin:0;
+      font-family: Arial, sans-serif;
+      background:#f9f9f9;
+    }
+    header {
+      background:#111;
+      color:white;
+      padding:20px;
+      text-align:center;
+    }
+    nav {
+      background:#222;
+      text-align:center;
+      padding:10px;
+    }
+    nav a {
+      color:white;
+      margin:0 15px;
+      text-decoration:none;
+      font-weight:bold;
+    }
+    .hero {
+      background:url('https://images.unsplash.com/photo-1555992336-03a23c6a3c4d') no-repeat center center/cover;
+      color:white;
+      text-align:center;
+      padding:120px 20px;
+    }
+    .hero h1 {
+      font-size:48px;
+      margin-bottom:20px;
+    }
+    .btn {
+      background:#ff6600;
+      padding:12px 25px;
+      color:white;
+      text-decoration:none;
+      border-radius:5px;
+    }
+    section {
+      padding:60px 20px;
+      text-align:center;
+    }
+    .menu-item {
+      margin:15px;
+    }
+    .contact input, .contact textarea {
+      width:80%;
+      padding:10px;
+      margin:10px 0;
+    }
+    .contact button {
+      padding:10px 20px;
+      background:#111;
+      color:white;
+      border:none;
+      cursor:pointer;
+    }
+    footer {
+      background:#111;
+      color:white;
+      text-align:center;
+      padding:20px;
+    }
+    @media(max-width:768px){
+      .hero h1 { font-size:32px; }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Spice Garden Restaurant</h1>
+  <p>Authentic Taste • Fresh Ingredients • Cozy Atmosphere</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#menu">Menu</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+  <h1>Experience Delicious Moments</h1>
+  <a href="#menu" class="btn">View Menu</a>
+</section>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>Spice Garden is a locally owned restaurant serving fresh, authentic cuisine made from high-quality ingredients. We focus on customer satisfaction and memorable dining experiences.</p>
+</section>
+
+<section id="menu">
+  <h2>Our Popular Dishes</h2>
+  <div class="menu-item">🍛 Butter Chicken - $12</div>
+  <div class="menu-item">🍕 Margherita Pizza - $10</div>
+  <div class="menu-item">🥗 Fresh Garden Salad - $8</div>
+  <div class="menu-item">🍝 Creamy Alfredo Pasta - $11</div>
+</section>
+
+<section>
+  <h2>Customer Testimonials</h2>
+  <p>"Best food in town! Highly recommended." ⭐⭐⭐⭐⭐</p>
+  <p>"Amazing ambiance and friendly staff." ⭐⭐⭐⭐⭐</p>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contact Us</h2>
+  <input type="text" placeholder="Your Name">
+  <input type="email" placeholder="Your Email">
+  <textarea rows="5" placeholder="Your Message"></textarea>
+  <br>
+  <button onclick="alert('Message Sent Successfully!')">Send Message</button>
+</section>
+
+<footer>
+  <p>© 2026 Spice Garden Restaurant | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
